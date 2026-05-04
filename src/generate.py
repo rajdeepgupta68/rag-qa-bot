@@ -15,7 +15,7 @@ MODEL = "meta-llama/Llama-3.3-70B-Instruct"
 
 client = InferenceClient(
     token=HF_TOKEN,
-    provider="novita",
+    provider="groq",
     timeout=30
 )
 
