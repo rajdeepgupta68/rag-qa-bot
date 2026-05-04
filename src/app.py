@@ -35,8 +35,8 @@ def query_fn(user_query: str):
     answer, sources = generate_answer(user_query)
     return f"{answer}\n\nSources:\n{format_sources(sources)}"
 
-with gr.Blocks(title="RAG Q&A Bot") as demo:
-    gr.Markdown("# RAG Q&A Bot")
+with gr.Blocks(title="ReadMyDoc") as demo:
+    gr.Markdown("# ReadMyDoc")
     gr.Markdown("Upload a document and ask questions. Answers are grounded in your content.")
 
     with gr.Row():

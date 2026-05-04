@@ -1,5 +1,5 @@
 ---
-title: RAG Q&A Bot
+title: ReadMyDoc
 colorFrom: green
 colorTo: gray
 sdk: gradio
