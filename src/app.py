@@ -154,7 +154,7 @@ def gradio_app():
         submit_btn.click(fn=query_fn, inputs=query, outputs=answer, show_progress=True)
         clear_btn.click(fn=lambda: ("", ""), outputs=[query, answer])
 
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860)
 
 
 if __name__ == "__main__":
